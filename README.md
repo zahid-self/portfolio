@@ -1,6 +1,6 @@
 # Your Name's Portfolio
 
-![Your Name's Portfolio](./home.png)
+![Your Name's Portfolio](./header.png)
 
 ## Overview
 
@@ -18,9 +18,6 @@ This is my personal portfolio built with Next.js, Tailwind CSS, and TypeScript. 
 [Live Demo](#)
 
 ## Screenshots
-
-![Screenshot 1](./public/images/screenshot-1.png)
-![Screenshot 2](./public/images/screenshot-2.png)
 
 ## Getting Started
 
