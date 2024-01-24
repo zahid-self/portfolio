@@ -6,11 +6,11 @@ import Works from '@/components/v2/Works'
 export default function Home() {
   return (
     <>
-      <div className='px-[15px] lg:px-[30px] xl:px-[45px]'>
+      <main className='px-[15px] lg:px-[30px] xl:px-[45px]'>
         <Navbar />
         <Intro />
         <Works />
-      </div>
+      </main>
     </>
   )
 }

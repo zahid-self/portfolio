@@ -1,13 +1,11 @@
 import { expect, test } from "vitest";
 import { render, screen, within } from "@testing-library/react";
-import Hero from "../src/components/Hero";
+import Intro from "../src/components/v2/Intro";
 
-test('Hero', () => {
-  let dom = render(<Hero />)
-  let main = within(screen.getByRole('main'))
-  let subHeading = dom.container.querySelector('.sub-heading');
-  let link = dom.container.querySelector('.facebook_link');
-  expect(main.getAllByRole('heading', { level: 1, name: /I’m Zahid Hasan/ })).toBeDefined()
-  expect(subHeading?.textContent).toBe('Front-End Development - UI/UX Designer')
-  expect(link).toBeDefined();
+test('Intro', () => {
+  let dom = render(<Intro />)
+  let intro = dom.container.querySelector('.intro');
+  let aboutMe = dom.container.querySelector('.about');
+  expect(intro?.textContent).toBe('I\'m Zahid Hasan');
+  expect(aboutMe?.textContent).toBe('A front-end engineer and UI/UX designer helping startups turn their visions into a digital reality. I specialize in designing and building modern mobile and web-based apps.');
 })
