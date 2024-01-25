@@ -1,4 +1,5 @@
 import Intro from '@/components/v2/Intro'
+import KnowMe from '@/components/v2/KnowMe'
 import Navbar from '@/components/v2/Navbar'
 import Works from '@/components/v2/Works'
 
@@ -10,6 +11,7 @@ export default function Home() {
         <Navbar />
         <Intro />
         <Works />
+        <KnowMe />
       </main>
     </>
   )
