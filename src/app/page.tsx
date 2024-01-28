@@ -4,6 +4,7 @@ import Intro from '@/components/v2/Intro'
 import KnowMe from '@/components/v2/KnowMe'
 import Navbar from '@/components/v2/Navbar'
 import Works from '@/components/v2/Works'
+import Tabbar from '@/components/v2/Tabbar'
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <KnowMe />
         <Cta />
         <Footer />
+        <Tabbar />
       </main>
     </>
   )
