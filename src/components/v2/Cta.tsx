@@ -3,7 +3,7 @@ import React from 'react'
 
 const Cta = () => {
   return (
-    <div className="container mx-auto py-[100px]">
+    <div className="container mx-auto py-[50px]">
       <div className='w-full flex flex-col md:flex-row gap-[34px] justify-between items-center'>
         <div className='flex flex-col items-start gap-[8px]'>
           <p className='text-[#FFF] text-[32px] md:text-[48px] font-bold leading-[normal]'>Let’s work together</p>

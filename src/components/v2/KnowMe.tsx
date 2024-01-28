@@ -3,7 +3,7 @@ import React from 'react'
 
 const KnowMe = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto pb-[50px]">
       <div className="inline-flex w-full flex-col items-start gap-[32px] py-[100px]">
         <h1 className='text-white font-bold leading-normal text-[48px]'>Get to know me</h1>
         <div className='flex w-full flex-col items-start gap-[16px]'>
