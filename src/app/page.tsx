@@ -10,15 +10,13 @@ import Tabbar from '@/components/v2/Tabbar'
 export default function Home() {
   return (
     <>
-      <main className='px-[15px] lg:px-[30px] xl:px-[45px]'>
-        <Navbar />
-        <Intro />
-        <Works />
-        <KnowMe />
-        <Cta />
-        <Footer />
-        <Tabbar />
-      </main>
+      <Navbar />
+      <Intro />
+      <Works />
+      <KnowMe />
+      <Cta />
+      <Footer />
+      <Tabbar />
     </>
   )
 }

@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className='flex items-center gap-[40px]'>
           <h1 className='flex-shrink-0 text-[35px]'>Z</h1>
           <div className='hidden lg:flex items-center gap-[40px]'>
-            <Link className='text-[#C5C5C5] text-[16px] not-italic font-medium leading-[normal]' href={'#'}>About</Link>
+            <Link className='text-[#C5C5C5] text-[16px] not-italic font-medium leading-[normal]' href={'/about'}>About</Link>
             <Link className='text-[#C5C5C5] text-[16px] not-italic font-medium leading-[normal]' href={'#'}>Work</Link>
             <Link className='text-[#C5C5C5] text-[16px] not-italic font-medium leading-[normal]' href={'#'}>Notebook</Link>
             <Link className='text-[#C5C5C5] text-[16px] not-italic font-medium leading-[normal]' href={'#'}>Contact</Link>
